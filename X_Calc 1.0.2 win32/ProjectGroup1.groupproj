@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9F93BC18-FA17-4ED2-8C93-CAD6419C3526}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="X_Calc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Database\CloudAPI\CloudAPITest\CloudAPITest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="X_Calc">
+        <MSBuild Projects="X_Calc.dproj"/>
+    </Target>
+    <Target Name="X_Calc:Clean">
+        <MSBuild Projects="X_Calc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="X_Calc:Make">
+        <MSBuild Projects="X_Calc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CloudAPITest">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Database\CloudAPI\CloudAPITest\CloudAPITest.dproj"/>
+    </Target>
+    <Target Name="CloudAPITest:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Database\CloudAPI\CloudAPITest\CloudAPITest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CloudAPITest:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Database\CloudAPI\CloudAPITest\CloudAPITest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="X_Calc;CloudAPITest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="X_Calc:Clean;CloudAPITest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="X_Calc:Make;CloudAPITest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

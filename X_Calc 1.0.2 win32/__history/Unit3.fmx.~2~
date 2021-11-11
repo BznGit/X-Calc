@@ -1,0 +1,390 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 447
+  ClientWidth = 297
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Touch.GestureManager = GestureManager1
+    OnGesture = TabControl1Gesture
+    Align = Client
+    Size.Width = 297.000000000000000000
+    Size.Height = 447.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = PlatformDefault
+    Sizes = (
+      297s
+      421s
+      297s
+      421s
+      297s
+      421s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object ScaledLayout1: TScaledLayout
+        OnGesture = TabControl1Gesture
+        Align = Client
+        OriginalWidth = 297.000000000000000000
+        OriginalHeight = 421.000000000000000000
+        Size.Width = 297.000000000000000000
+        Size.Height = 421.000000000000000000
+        Size.PlatformDefault = False
+        object Button1: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 7.000000000000000000
+          Position.Y = 365.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 33
+          Text = '+/-'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claTan
+        end
+        object Button10: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 77.000000000000000000
+          Position.Y = 265.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = '5'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button11: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 146.000000000000000000
+          Position.Y = 265.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 15
+          Text = '6'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button12: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 215.000000000000000000
+          Position.Y = 215.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 21
+          Text = '-'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claLime
+        end
+        object Button13: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 7.000000000000000000
+          Position.Y = 215.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 25
+          Text = '7'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button14: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 77.000000000000000000
+          Position.Y = 215.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 28
+          Text = '8'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button15: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 146.000000000000000000
+          Position.Y = 215.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 31
+          Text = '9'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button16: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 215.000000000000000000
+          Position.Y = 265.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 34
+          Text = '*'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claLime
+        end
+        object Button17: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Margins.Top = 10.000000000000000000
+          Position.X = 7.000000000000000000
+          Position.Y = 166.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 16
+          Text = 'EXP'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claOrangered
+        end
+        object Button18: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 77.000000000000000000
+          Position.Y = 166.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 18
+          Text = '+j'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claYellow
+        end
+        object Button19: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 146.000000000000000000
+          Position.Y = 166.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 19
+          Text = 'SQRT'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSienna
+        end
+        object Button2: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 77.000000000000000000
+          Position.Y = 365.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 32
+          Text = '0'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button20: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 215.000000000000000000
+          Position.Y = 166.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 20
+          Text = '+'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claLime
+        end
+        object Button21: TButton
+          StyledSettings = [Family, FontColor]
+          Position.X = 7.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'EXP/ALG'
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claDarkorange
+        end
+        object Button22: TButton
+          StyledSettings = [Family, FontColor]
+          Position.X = 77.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'MEMORY+'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claMediumblue
+        end
+        object Button23: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 146.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'BACK'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claBrown
+        end
+        object Button24: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 215.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'C'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claRed
+        end
+        object Button3: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 146.000000000000000000
+          Position.Y = 364.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 26
+          Text = ','
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claTan
+        end
+        object Button4: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 215.000000000000000000
+          Position.Y = 364.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 27
+          Text = '='
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claFuchsia
+        end
+        object Button5: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 7.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 14
+          Text = '1'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button6: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 77.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = '2'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button7: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 146.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = '3'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+        object Button8: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 215.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = '/'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claLime
+        end
+        object Button9: TButton
+          StyledSettings = [Family, Size, FontColor]
+          Position.X = 7.000000000000000000
+          Position.Y = 265.000000000000000000
+          Size.Width = 70.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = '4'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TintColor = claSlateblue
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+  end
+  object GestureManager1: TGestureManager
+    Sensitivity = 52.000000000000000000
+    Left = 432
+    Top = 80
+    GestureData = <
+      item
+        Control = TabControl1
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end
+          item
+            GestureID = sgiUp
+          end>
+      end>
+  end
+end

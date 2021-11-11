@@ -1,0 +1,24 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <VerInfo_Build>1</VerInfo_Build>
+        <Android_LauncherIcon144>X_calc144.png</Android_LauncherIcon144>
+        <Android_LauncherIcon36>X_calc36.png</Android_LauncherIcon36>
+        <Android_LauncherIcon48>X_calc48.png</Android_LauncherIcon48>
+        <Android_LauncherIcon72>X_calc72.png</Android_LauncherIcon72>
+        <Android_LauncherIcon96>X_calc96.png</Android_LauncherIcon96>
+        <Android_SplashImage426>X_calc426.png</Android_SplashImage426>
+        <Android_SplashImage470>X_calc470.png</Android_SplashImage470>
+        <Android_SplashImage640>X_calc640.png</Android_SplashImage640>
+        <Android_SplashImage960>X_calc960.png</Android_SplashImage960>
+        <Android_SplashTileMode>mirror</Android_SplashTileMode>
+        <Android_SplashGravity>start</Android_SplashGravity>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>OptionSet</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality/>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

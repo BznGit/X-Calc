@@ -1,0 +1,178 @@
+inherited Form3_NmXhdpiPh: TForm3_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited TabControl1: TTabControl
+    Margins.Left = 5.000000000000000000
+    Size.Width = 395.000000000000000000
+    Size.Height = 615.000000000000000000
+    TouchTargetExpansion.Top = 1.000000000000000000
+    Sizes = (
+      395s
+      566s
+      395s
+      566s
+      395s
+      566s)
+    inherited TabItem1: TTabItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 131.000000000000000000
+      StyleLookup = 'tabitemstyle'
+      ExplicitSize.cx = 133.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Button1: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button10: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button11: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button12: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button13: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button14: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button15: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button16: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button17: TButton
+        Margins.Top = 10.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button18: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button19: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button2: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button20: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button21: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button22: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button23: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button24: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button3: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button4: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button5: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button6: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button7: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button8: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Button9: TButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Memo1: TMemo
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Margins.Left = 6.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 6.000000000000000000
+        Position.X = 6.000000000000000000
+        Position.Y = 5.000000000000000000
+        Viewport.Width = 292.000000000000000000
+        Viewport.Height = 125.000000000000000000
+      end
+    end
+    inherited TabItem2: TTabItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      StyledSettings = [Family, Size, Style, Other]
+      Size.Width = 131.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ScaledLayout2: TScaledLayout
+        Locked = True
+        OriginalWidth = 400.000000000000000000
+        OriginalHeight = 566.000000000000000000
+        Size.Width = 395.000000000000000000
+        Size.Height = 566.000000000000000000
+        inherited Memo2: TMemo
+          TextSettings.Font.Size = 14.399999618530270000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          EnabledScroll = True
+          EnableDragHighlight = True
+          Size.Width = 395.000000000000000000
+          Size.Height = 566.000000000000000000
+          Viewport.Width = 395.000000000000000000
+          Viewport.Height = 566.000000000000000000
+        end
+      end
+    end
+    inherited TabItem3: TTabItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      StyledSettings = [Family, Size, Style, Other]
+      Size.Width = 133.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ScaledLayout3: TScaledLayout
+        OriginalWidth = 400.000000000000000000
+        OriginalHeight = 566.000000000000000000
+        Size.Width = 395.000000000000000000
+        Size.Height = 566.000000000000000000
+        inherited Label1: TLabel
+          Size.Width = 245.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 
+            #1053#1072#1076' '#1087#1088#1086#1075#1088#1072#1084#1084#1086#1081' '#1088#1072#1073#1086#1090#1072#1083#1080': '#1041#1077#1079#1085#1103#1082#1086#1074' '#1040'.'#1052'., '#1042#1083#1072#1089#1086#1074' '#1042'.'#1040'. '#1075'. '#1057#1072#1085#1082#1090'-'#1055#1077#1090 +
+            #1077#1088#1073#1091#1088#1075'  2019 '#1075'.'
+        end
+        inherited Label2: TLabel
+          Position.Y = 508.000000000000000000
+          Size.Width = 395.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+  end
+  inherited GestureManager1: TGestureManager
+    GestureData = <
+      item
+        Control = TabControl1
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end
+          item
+            GestureID = sgiUp
+          end>
+      end
+      item
+        Control = Memo2
+        Collection = <>
+      end>
+  end
+end

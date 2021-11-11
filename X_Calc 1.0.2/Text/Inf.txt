@@ -1,0 +1,11 @@
+Калькулятор комплексных чисел
+
+Приложение позволяет проводить операции сложения, вычитания, умножения, деления над комплексными числами в любой форме представления. Приложение выгодно отличается ярким дизайном, простым и интуитивно понятным интерфейсом, возможностью мгновенного перевода комплексных чисел в различные формы записи, имеет функцию памяти, обладает возможностью управления с помощью жестов.
+
+Complex number calculator
+
+The application allows you to perform operations of addition, subtraction, multiplication, division over complex numbers in any form of representation. The application compares favorably with its striking design, simple and intuitive interface, the ability to instantly translate complex numbers into various forms of recording, has a memory function, and has the ability to control using gestures.
+
+https://console.cloud.google.com/storage/browser/test-lab-f1chcxj70y4am-wbtf57fpahhhk
+
+gs://test-lab-f1chcxj70y4am-wbtf57fpahhhk

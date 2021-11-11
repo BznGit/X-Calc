@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.464,=E:\Документы\Безняков\Программирование\Жесты\Operands.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.949,E:\Документы\Безняков\Программирование\Жесты\X_Calc.dproj=E:\Документы\Безняков\Программирование\Жесты\X.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.293,C:\Users\Алексей\Desktop\Жесты\Unit3.fmx=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.847,E:\Документы\Безняков\Программирование\Жесты\Project3.dproj=E:\Документы\Безняков\Программирование\Жесты\X_Calc.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.293,C:\Users\Алексей\Desktop\Жесты\Unit3.pas=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.722,E:\Документы\Безняков\Программирование\Жесты\Main.pas=E:\Документы\Безняков\Программирование\Жесты\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.722,E:\Документы\Безняков\Программирование\Жесты\Main.fmx=E:\Документы\Безняков\Программирование\Жесты\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.535,E:\Документы\Безняков\Программирование\Жесты\X.dproj=E:\Документы\Безняков\Программирование\Жесты\X_Calc.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.607,C:\Users\Алексей\Desktop\Жесты\Project3.dproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.312,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PCmplxV2 iOSSimulator="iPhone5"/>
+		<NoProfile Android="AVD_for_Nexus_6" iOSSimulator="iPhone5" Android64="AVD_for_Nexus_6"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="Operands" platform="Android">
+  <array name="TDataSTR">
+    <element type="string" />
+  </array>
+  <function name="VYVOD" visibility="public">
+    <parameters>
+      <parameter name="s" type="Extended" />
+      <retval type="string" />
+    </parameters>
+  </function>
+  <function name="GRAD" visibility="public">
+    <parameters>
+      <parameter name="rad" type="Extended" />
+      <retval type="Extended" />
+    </parameters>
+  </function>
+  <function name="RAD" visibility="public">
+    <parameters>
+      <parameter name="grad" type="Extended" />
+      <retval type="Extended" />
+    </parameters>
+  </function>
+  <procedure name="MULTIPLY" visibility="public">
+    <parameters>
+      <parameter name="A" type="Extended" />
+      <parameter name="B" type="Extended" />
+      <parameter name="C" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="DIVIDE" visibility="public">
+    <parameters>
+      <parameter name="A" type="Extended" />
+      <parameter name="B" type="Extended" />
+      <parameter name="C" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="PLUS" visibility="public">
+    <parameters>
+      <parameter name="A" type="Extended" />
+      <parameter name="B" type="Extended" />
+      <parameter name="C" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="MINUS" visibility="public">
+    <parameters>
+      <parameter name="A" type="Extended" />
+      <parameter name="B" type="Extended" />
+      <parameter name="C" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="ALGPLUS" visibility="public">
+    <parameters>
+      <parameter name="Re1" type="Extended" />
+      <parameter name="Im1" type="Extended" />
+      <parameter name="Re2" type="Extended" />
+      <parameter name="Im2" type="Extended" />
+      <parameter name="Re" type="Extended" paramflags="var" />
+      <parameter name="Im" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="ALGMINUS" visibility="public">
+    <parameters>
+      <parameter name="Re1" type="Extended" />
+      <parameter name="Im1" type="Extended" />
+      <parameter name="Re2" type="Extended" />
+      <parameter name="Im2" type="Extended" />
+      <parameter name="Re" type="Extended" paramflags="var" />
+      <parameter name="Im" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="ALGMULTIPLY" visibility="public">
+    <parameters>
+      <parameter name="Re1" type="Extended" />
+      <parameter name="Im1" type="Extended" />
+      <parameter name="Re2" type="Extended" />
+      <parameter name="Im2" type="Extended" />
+      <parameter name="Re" type="Extended" paramflags="var" />
+      <parameter name="Im" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="ALGDIVIDE" visibility="public">
+    <parameters>
+      <parameter name="Re1" type="Extended" />
+      <parameter name="Im1" type="Extended" />
+      <parameter name="Re2" type="Extended" />
+      <parameter name="Im2" type="Extended" />
+      <parameter name="Re" type="Extended" paramflags="var" />
+      <parameter name="Im" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="EXPTOALG" visibility="public">
+    <parameters>
+      <parameter name="Am" type="Extended" />
+      <parameter name="psi" type="Extended" />
+      <parameter name="Re" type="Extended" paramflags="var" />
+      <parameter name="Im" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="ALGTOEXP" visibility="public">
+    <parameters>
+      <parameter name="Re" type="Extended" />
+      <parameter name="Im" type="Extended" />
+      <parameter name="Am" type="Extended" paramflags="var" />
+      <parameter name="psi" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="SOLVER" visibility="public">
+    <parameters>
+      <parameter name="Chislo" type="TDataSTR" />
+      <parameter name="resRe" type="Extended" paramflags="var" />
+      <parameter name="resIm" type="Extended" paramflags="var" />
+    </parameters>
+  </procedure>
+  <procedure name="PROCESSING" visibility="public">
+    <parameters>
+      <parameter name="s" type="string" />
+      <parameter name="g" type="string" paramflags="var" />
+      <parameter name="brk" type="Boolean" paramflags="var" />
+    </parameters>
+  </procedure>
+</namespace>
